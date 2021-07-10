@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: hsl(233, 47%, 7%);
+  color: hsl(0, 0%, 100%);
+  padding: 0;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  width: 70%;
+  margin: 40px auto;
+  font-size: 2rem;
+  text-align: left;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+h2 {
+  display: inline;
+  font-family: "Lexend Deca", sans-serif;
+  text-align: left;
+}
+
+p {
+  width: 70%;
+  margin: 20px auto 80px;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 600;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+img {
+  opacity: 0.35;
+  width: 100%;
+  height: 399px;
+  border-radius: 0 3% 3% 0;
+}
+
+a {
+  text-decoration: none;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.scores {
+  display: inline-block;
+  width: 32%;
+  text-align: left;
+}
+
+.score {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.tag {
+  display: block;
+  text-transform: uppercase;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.bottom {
+  width: 70%;
+  text-align: left;
+  margin: 48px auto;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.left-container {
+  width: 50%;
+  float: left;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 3% 0 0 3%;
+  margin: auto;
+}
+
+.right-container {
+  width: 50%;
+  float: right;
+  background-color: hsl(277, 64%, 61%);
+  border-radius: 0 3% 3% 0;
+  max-height: 400px;
+}
+
+.insights {
+  display: inline;
+  color: hsl(277, 64%, 61%);
+}
+
+.attribution {
+  width: 100%;
+  position: relative;
+  bottom: -100px;
+  margin: auto;
+}
